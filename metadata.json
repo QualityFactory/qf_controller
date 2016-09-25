@@ -9,6 +9,6 @@
   "issues_url": "https://github.com/qualityfactory/qf_mdsrv_elctrl/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"dsestero-jboss","version_requirement":">=1.1.1"}
+    {"name":"biemond-wildfly","version_requirement":">=0.5.3"}
   ]
 }
