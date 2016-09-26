@@ -43,9 +43,9 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class qf_mdsrv_elctrl {
-  contain qf_mdsrv_elctrl::dependencies
-  contain qf_mdsrv_elctrl::jboss::init
+  #contain qf_mdsrv_elctrl::dependencies
+  #contain qf_mdsrv_elctrl::jboss::init
 
-  Class ['qf_mdsrv_elctrl::dependencies'] ->
-  Class ['qf_mdsrv_elctrl::jboss::init']
+  include qf_mdsrv_elctrl::dependencies 
+  include qf_mdsrv_elctrl::jboss::init
 }
